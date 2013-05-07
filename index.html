@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Player HTML5</title>
+</head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="assets/js/main.js"></script>
+<body>
+<audio src="assets/sounds/Grace Kelly - Ready set stay.mp3" class="playsong" data-songartist="Grace Kelly" data-songtitle="Ready set stay" data-albumart="assets/img/1.100.jpg"></audio>
+<audio src="assets/sounds/Sundayers - El Sonido Del Mar.mp3" class="playsong" data-songartist="Sundayers" data-songtitle="El Sonido Del Mar" data-albumart="assets/img/1.200.jpg"></audio>
+<audio src="assets/sounds/J.C.Vogt - Kid at heart.mp3" class="playsong" data-songartist="J.C.Vogt" data-songtitle="Kid at heart" data-albumart="assets/img/1.300.jpg"></audio>
+<audio src="assets/sounds/Johaness Gilther - Subcarpathia.mp3" class="playsong" data-songartist="Johaness Gilther" data-songtitle="Subcarpathia" data-albumart="assets/img/1.400.jpg"></audio>
+
+<img src="assets/img/default.jpg" alt="default" class="albumart">
+
+<div class="songartist">Artist</div>
+<div class="songtitle">Title</div>
+
+<button class="prev">PREV</button>
+<button class="play">PLAY</button>
+<button class="next">NEXT</button>
+
+
+<div id="progressContainer" style="width: 250px; background-color: black;">
+<div id="progress" style="height: 10px; background-color: red; width: 0%;"></div>
+</div>
+
+
+<div class="current" id="current_time">0:00</div>
+<div class="duration" id="duration_time">0:00</div>
+
+
+</body>
+</html>
